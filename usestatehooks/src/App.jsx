@@ -4,7 +4,7 @@ const UserData = () => {
   const [users, setUsers] = useState([
     { Name: "John", Id: "1", Email: "john@example.com", ContactNo: "1234567890", Age: 30 },
     { Name: "Alice", Id: "2", Email: "alice@example.com", ContactNo: "9876543210", Age: 25 },
-    // Add more user objects as needed
+
   ]);
   const [searchId, setSearchId] = useState('');
   const [userDetails, setUserDetails] = useState(null);
